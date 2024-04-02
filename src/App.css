@@ -36,3 +36,49 @@
 .text-iron {
   color: #0a035a;
 }
+
+.list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.travelCard {
+  min-width: 500px;
+  border: 2px solid black;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px;
+  margin: 10px;
+  text-align: left;
+  align-items: flex-start;
+}
+
+.travelCard img {
+  margin: 0;
+  padding-right: 20px;
+  width: 200px;
+  height: 140px;
+}
+
+.travelCard h1 {
+  margin: 0;
+  padding: 0;
+  color: #0a035a;
+  font-size: 1.1rem;
+  font-weight: 800;
+}
+
+.travelCard h2 {
+  color: #0a035a;
+  font-size: 0.8rem;
+  font-style: italic;
+  font-weight: 400;
+}
+
+.travelCard p {
+  color: #0a035a;
+  font-size: 0.75rem;
+  font-weight: 400;
+}
