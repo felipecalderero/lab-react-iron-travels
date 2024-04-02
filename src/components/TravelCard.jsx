@@ -11,6 +11,15 @@ const TravelCard = ({ travelPlan }) => {
         <p>
           <b>Price:</b> {travelPlan.totalCost} €
         </p>
+        {travelPlan.totalCost <= 350 && (
+          <button className="deal">Great Deal</button>
+        )}
+        {travelPlan.totalCost >= 1500 && (
+          <button className="premium">Premium</button>
+        )}
+        {travelPlan.allInclusive && (
+          <button className="allinclusive">All Inclusive</button>
+        )}
       </div>
     </div>
   );
