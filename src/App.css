@@ -49,14 +49,14 @@
   border: 2px solid black;
   display: flex;
   justify-content: space-evenly;
-  padding: 20px;
+  padding: 10px 20px 20px;
   margin: 10px;
   text-align: left;
   align-items: flex-start;
 }
 
 .travelCard img {
-  margin: 0;
+  margin: 10px 0 0 0;
   padding-right: 20px;
   width: 200px;
   height: 140px;
@@ -114,4 +114,14 @@
   border-radius: 5px;
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
   margin-right: 10px;
+}
+
+.deleteButton {
+  font-size: 0.8rem;
+  margin: 0 0 10px 100%;
+  padding: 0;
+  background-color: grey;
+  color: white;
+  border-radius: 10px;
+  padding: 2px;
 }
